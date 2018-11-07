@@ -6,10 +6,6 @@ import (
 	"fmt"
 )
 
-func main() {
-
-}
-
 func PutToUppercase(s string) {
 	c := cron.New()
 	c.AddFunc("@every 1s", func() {
