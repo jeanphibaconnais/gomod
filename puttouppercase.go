@@ -1,4 +1,4 @@
-package putouppercase
+package puttouppercase
 
 import (
 	"strings"
