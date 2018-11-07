@@ -1,10 +1,13 @@
-package gomod
+package putouppercase
 
 import (
 	"strings"
 	"github.com/robfig/cron"
 	"fmt"
 )
+
+func init() {
+}
 
 func PutToUppercase(s string) {
 	c := cron.New()
